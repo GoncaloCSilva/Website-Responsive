@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384- ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/4ba78ff679.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Os Caricas</title>
+    <link rel="stylesheet" href="CSS/Demo.css" />
+  </head>
+
+  <body>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <!-- header -->
+    <!-- header -->
+    <header class="container-fluid bg-warning">
+      <!-- logo -->
+      <div class="row">
+        <div
+          class="col d-flex justify-content-between justify-content-end align-items-baseline"
+        >
+          <a
+            class="fa-brands fa-facebook text-reset"
+            href="https://www.facebook.com"
+          ></a>
+          <a
+            class="fa-brands fa-twitter text-reset"
+            href="https://www.twitter.com"
+          ></a>
+          <a
+            class="fa-brands fa-instagram text-reset"
+            href="https://www.instagram.com"
+          ></a>
+          <a
+            class="fa-brands fa-linkedin text-reset"
+            href="https://www.linkedin.com"
+          ></a>
+          <div class="col-11 text-right">All rights reserved</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- nav  -->
+    <nav class="navbar py-1 navbar-dark navbar-expand-sm">
+      <div class="container-fluid">
+        <!-- my name -->
+
+        <div class="col">
+          <a href="AulaPratica1-About.html" class="navbar-brand h1">
+            <h1>Os Caricas</h1>
+          </a>
+        </div>
+
+        <!-- logo -->
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarLinks"
+        >
+          <span class="navbar-toggler-icon text-primary"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarLinks"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="AulaPratica1.html" class="navbar-brand h1">
+                <button class="home" type="button">Home</button>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="Trabalho.html" class="navbar-brand h1">
+                <button class="skills" type="button">Trabalho</button></a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="AulaPratica1-Artists.html" class="navbar-brand h1">
+                <button class="skills" type="button">Artists</button></a
+              >
+            </li>
+            <li class="nav-item">
+              <div class="dropdown div-inline">
+                <button
+                  class="dropdown-toggle navbar-brand h1"
+                  type="button"
+                  data-toggle="dropdown"
+                  style="background: orange; color: black"
+                >
+                  Albums
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="AulaPratica1-Logic.html" class="drop text-light"
+                      >No Pressure</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="AulaPratica1-KidCudi.html"
+                      class="drop text-warning"
+                      >Man On The Moon III</a
+                    >
+                  </li>
+                  <li>
+                    <a href="AulaPratica1-Kendrick.html" class="drop text-light"
+                      >Mr.Morale and the Big Steppers</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="AulaPratica1-TameImpala.html"
+                      class="drop text-light"
+                      >Currents</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="AulaPratica1-DerekPope.html"
+                      class="drop text-light"
+                      >We're All Strangers</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="AulaPratica1-ContactMe.html" class="navbar-brand h1">
+                <button class="contact" type="button">Contact Me</button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- buttons -->
+    </nav>
+
+    <article id="home" class="Kid border-bottom border-white rounded">
+      <!-- carousel section -->
+      <div class="container height">
+        <div class="row">
+          <div class="col-8 mx-auto text-center">
+            <h2 class="text-light">Kid Cudi</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="card-deck">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="https://25yearslatersite.com/wp-content/uploads/2020/12/kid-cudi.jpg"
+                alt="Card image cap"
+              />
+
+              <div class="card-body">
+                <h5 class="card-title">Kid Cudi</h5>
+                <p class="card-text">
+                  Scott Ramon Seguro Mescudi (born January 30, 1984), better
+                  known by his stage name Kid Cudi, is an American rapper,
+                  singer, songwriter, record producer, and actor. He has been
+                  widely recognized as an influence on several contemporary hip
+                  hop and alternative acts. His lyrics are often
+                  autobiographical and describe his childhood hardships of
+                  depression, loneliness and alienation, his struggle with
+                  alcohol and drugs into adulthood, and themes of spirituality,
+                  heartbreak, dissipation and celebration.
+                </p>
+                <p>
+                  Man on the Moon III: The Chosen is the seventh studio album by
+                  American musician Kid Cudi, released on December 11, 2020 by
+                  Republic Records. It is the final installment of Cudi's Man on
+                  the Moon trilogy of albums. Thematically, Man on the Moon III
+                  is a concept album that finds Cudi in an internal struggle
+                  against his evil alter ego, Mr. Rager, in hopes to win back
+                  his peace and happiness. As with the previous two installments
+                  in the trilogy, the album is divided into separate acts.
+                </p>
+                <br />
+                <h2 class="mx-auto">MAN ON THE MOON III TRACKLIST</h2>
+                <br />
+                <h3>Beautiful Trip</h3>
+
+                <iframe
+                  style="border-radius: 12px"
+                  src="https://open.spotify.com/embed/track/4IIuCotvqijraSdnVLaFnM?utm_source=generator"
+                  width="300"
+                  height="80"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                ></iframe>
+                <p>
+                  A short instrumental intro to the long-awaited third chapter
+                  of Cudi's Man on the Moon trilogy. This intro cleverly
+                  interpolates sounds from the opening of the first album in the
+                  series while preparing listeners for another "emotional moon
+                  landing."
+                </p>
+                <br />
+                <h3>Tequilla Shots</h3>
+
+                <iframe
+                  style="border-radius: 12px"
+                  src="https://open.spotify.com/embed/track/30KctD1WsHKTIYczXjip5a?utm_source=generator"
+                  width="300"
+                  height="80"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                ></iframe>
+                <p>
+                  Kid Cudi embarks on the final chapter of the Man on the Moon
+                  trilogy by reflecting on past struggles and ongoing internal
+                  wars. Cudi depicts imagery of a storm stirring up within him,
+                  but he can't back down from the fight, despite his fears of
+                  crashing. He also mimics Common's narration as a callback to
+                  the first Man on the Moon.
+                </p>
+                <br />
+                <h3>Another Day</h3>
+
+                <iframe
+                  style="border-radius: 12px"
+                  src="https://open.spotify.com/embed/track/6myUpr3GDR80Dg3zqNTmmG?utm_source=generator"
+                  width="300"
+                  height="80"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                ></iframe>
+                <p>
+                  Kid Cudi raps about the adventures of Mr. Rager, but at the
+                  end of the track he seems to awaken from a night of partying
+                  with a desire to make a change in his life. He closes the song
+                  with a reference to his past life as Mr. Rager, hinting that
+                  he is taking his life in a different direction.
+                </p>
+                <br />
+                <h3>She Knows This</h3>
+
+                <iframe
+                  style="border-radius: 12px"
+                  src="https://open.spotify.com/embed/track/1xzUQMiCoY5pdego0pHMeV?utm_source=generator"
+                  width="300"
+                  height="80"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                ></iframe>
+                <p>
+                  “She Knows This” revisits the theme of Cudi's trippy,
+                  occasionally superfluous, sexual parties. A lover at heart,
+                  Cudi's focus on his female counterparts is reflected not only
+                  in the title of the song, but also repeated throughout the
+                  chorus and described in the verses.
+                </p>
+                <br />
+                <h3>Dive</h3>
+
+                <iframe
+                  style="border-radius: 12px"
+                  src="https://open.spotify.com/embed/track/7Hc3YL8oDiAzbiAW32KXrw?utm_source=generator"
+                  width="300"
+                  height="80"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                ></iframe>
+                <p>
+                  As the final song of Act I: Return 2 Madness, “Dive” continues
+                  the act's theme of alcohol-filled partying, followed by
+                  growing feelings of unease. Production is wielded by Dot Da
+                  Genius, but features production from others including Anthony
+                  Kilhoffer, Aaron Bow, Teddy Walton and Kevin Parker (aka Tame
+                  Impala). Cudi and Kilhoffer know each other through their
+                  affiliation with Kanye's G.O.O.D. Music record label; and Bow
+                  and Walton are often found working together on tracks.
+                </p>
+                <br />
+                <h3>Damaged</h3>
+                <iframe
+                  style="border-radius: 12px"
+                  src="https://open.spotify.com/embed/track/2n7Ao4nyESBa5ti8gcAbBt?utm_source=generator"
+                  width="300"
+                  height="80"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                ></iframe>
+                <p>
+                  “Damaged” is the first track of Act II: The Rager, The Menace,
+                  and marks the start of Cudi's spiraling out of control in the
+                  plot of the album. The fast-paced life of his tour life,
+                  partying and sexual escapades has pushed Cudi into a damaged
+                  state of mind.
+                </p>
+                <br />
+                <h3>Heaven On Earth</h3>
+                <iframe
+                  style="border-radius: 12px"
+                  src="https://open.spotify.com/embed/track/2koUj1Fn5TKFEkChSmBPIb?utm_source=generator"
+                  width="300"
+                  height="80"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                ></iframe>
+                <p>
+                  As the second song of Act II: The Rager, The Menace, “Heaven
+                  on Earth” portrays Cudi riding high on his rockstar lifestyle.
+                  While experiencing the greater things in life and searching
+                  for “heaven on Earth”, he is guided by angels in his
+                  encounters the devilish behaviors. With its unwavering
+                  bassline and Cudi's uncharacteristic ad-libs, the track evokes
+                  violent undertones and Cudi seems to be out for blood.
+                </p>
+                <br />
+                <h3>Show Out</h3>
+
+                <iframe
+                  style="border-radius: 12px"
+                  src="https://open.spotify.com/embed/track/5CFJRZRq6sdKKtRwNPWbYv?utm_source=generator"
+                  width="300"
+                  height="80"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                ></iframe>
+                <p>
+                  “Show Out” is a track of triumph and vigor, which combines
+                  related genres of drill and hip hop. Cudi flows in a
+                  never-before seen trio alongside the posthumous Brooklyn
+                  rapper Pop Smoke and London rapper Skepta. Produced by Cudi's
+                  OG team of Dot Da Genius and Plain Pat (as well as Heavy
+                  Mellow and Gravez), Cudi returns to his roots both vocally and
+                  instrumentally.
+                </p>
+                <br />
+                <h3>Mr. Solo Dolo III</h3>
+
+                <iframe
+                  style="border-radius: 12px"
+                  src="https://open.spotify.com/embed/track/27oVCAziETRbNuo5A8LNpg?utm_source=generator"
+                  width="300"
+                  height="80"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                ></iframe>
+                <p>
+                  On “Mr. Solo Dolo III,” Cudi delves into his addiction and
+                  struggles stemming from his isolation. Throughout his career,
+                  Cudi has been well-known as a pioneer of openness and honesty
+                  related to struggles with mental health in hip-hop, a genre
+                  that has typically bolstered the male image of high levels of
+                  confidence and no invulnerabilities to remark.
+                </p>
+                <br />
+                <h3>Sad People</h3>
+
+                <iframe
+                  style="border-radius: 12px"
+                  src="https://open.spotify.com/embed/track/4nuAslShoN77tq12fzwjUq?utm_source=generator"
+                  width="300"
+                  height="80"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                ></iframe>
+                <p>
+                  On “Sad People,” Kid Cudi details the thoughts that plague him
+                  at night and his search for inner peace. He illustrates the
+                  extreme highs that he experiences, and how he often finds
+                  himself depressed afterward. Despite his sadness, he continues
+                  to push his limits, even when he knows it may not be the best
+                  for his mental health.
+                </p>
+                <br />
+                <h3>Elsie's Baby Boy (Flashback)</h3>
+
+                <iframe
+                  style="border-radius: 12px"
+                  src="https://open.spotify.com/embed/track/6jiwr6xTHqjdun5d3cEwXV?utm_source=generator"
+                  width="300"
+                  height="80"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                ></iframe>
+                <p>
+                  “Elsie's Baby Boy (Flashback)” has Cudi revisiting his
+                  childhood and singing about his relationship with his mother
+                  Elsie. He speaks on how hard she worked to keep their family
+                  together despite the lack of a traditional father figure, and
+                  how his father's death affected him.
+                </p>
+                <br />
+                <h3>Sept. 16th</h3>
+                <iframe
+                  style="border-radius: 12px"
+                  src="https://open.spotify.com/embed/track/3Uw2se3aQU1UFrpRBvBnB4?utm_source=generator"
+                  width="300"
+                  height="80"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                ></iframe>
+                <p>
+                  “Sept. 16th” is the birthday of Cudi's girlfriend at the time
+                  of the MOTMIII release, Raquel “Rocky” Deriane. She appears to
+                  be the inspiration for this love-fueled ballad. FINNEAS hops
+                  on the track for production, but he is known as the primary
+                  producer for his sister Billie Eilish, and also is listed as a
+                  writer and producer for the song.
+                </p>
+                <br />
+                <h3>The Void</h3>
+
+                <iframe
+                  style="border-radius: 12px"
+                  src="https://open.spotify.com/embed/track/2yg7MXp8nSPaf61HVkhEr3?utm_source=generator"
+                  width="300"
+                  height="80"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                ></iframe>
+                <p>
+                  On “The Void,” Cudi details his struggles with mental health,
+                  describing how he will do anything to avoid succumbing to
+                  depression. He also takes a moment to thank his fans for
+                  supporting him through the years and sticking along for the
+                  ride.
+                </p>
+                <br />
+                <h3>Lovin'Me</h3>
+                <iframe
+                  style="border-radius: 12px"
+                  src="https://open.spotify.com/embed/track/3JdwGk8j7lHN5qdzJZklam?utm_source=generator"
+                  width="300"
+                  height="80"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                ></iframe>
+                <p>
+                  For the emotive “Lovin' Me,” Cudi enlists indie artist Phoebe
+                  Bridgers to deliver an anthem on the importance of self-love
+                  in finding happiness, with the pair singing verses in a
+                  touching duet that marks the conclusion of the album's third
+                  act.
+                </p>
+
+                <h3>The Pale Moonlight</h3>
+
+                <iframe
+                  style="border-radius: 12px"
+                  src="https://open.spotify.com/embed/track/4EjbAh7YHU3VARkfkamZ8R?utm_source=generator"
+                  width="300"
+                  height="80"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                ></iframe>
+                <p>
+                  The song “The Pale Moonlight” is the first song in Act IV:
+                  Powers from Man on the Moon III: The Chosen. On this song Kid
+                  Cudi demonstrates his ability to ride on the beat effortlessly
+                  and shows his carefree spirit through the lyrics of this song.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+                <br />
+                <h3>Rockstar Knights</h3>
+                <iframe
+                  style="border-radius: 12px"
+                  src="https://open.spotify.com/embed/track/4J9SI7do4KOEsCexqEbjmR?utm_source=generator"
+                  width="300"
+                  height="80"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                ></iframe>
+                <p>
+                  “Rockstar Knights” is a trippy, forward-thinking trap cut
+                  reminiscent of Cudi's more braggadocious material. Trippie
+                  touches on his potential mortality while flexing in typical
+                  fashion, while Cudi splits his verses between “King
+                  Wizard”-style braggadocio and introspection.
+                </p>
+                <br />
+                <h3>4 da Kidz</h3>
+                <iframe
+                  style="border-radius: 12px"
+                  src="https://open.spotify.com/embed/track/2ZDRkJrKbceJRgLKkuex14?utm_source=generator"
+                  width="300"
+                  height="80"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                ></iframe>
+                <p>
+                  On the penultimate song to the third chapter in the Man on the
+                  Moon trilogy, Kid Cudi communicates a simple message to the
+                  kids—you're not alone. Cudi dedicates the song to fans who
+                  have struggled like he has, which is a theme he's been trying
+                  to put front and center his whole career. Embarking on his Man
+                  on the Moon journey, he declared his mission statement on
+                  2009's “Soundtrack 2 My Life”: "I try and think about myself
+                  as a sacrifice Just to show the kids they ain't the only ones
+                  who up at night"
+                </p>
+                <br />
+                <h3>Lord I Know</h3>
+                <iframe
+                  style="border-radius: 12px"
+                  src="https://open.spotify.com/embed/track/7f2voPcnDEAzX4yB8SLnU2?utm_source=generator"
+                  width="300"
+                  height="80"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                ></iframe>
+                <p>
+                  “Lord I Know” serves as the closer to both the album and the
+                  Man on the Moon trilogy. On the track Cudi ruminates about the
+                  trials and tribulations he has faced, and understanding the
+                  weight of the message of perseverance he has championed
+                  throughout his career on tracks like “Pursuit of Happiness”
+                  and “Reborn” It finds Cudi finally content with life and the
+                  path that he is on. His daughter Vada closes the album with a
+                  short message as well.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://www.facebook.com"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+
+          <!-- Twitter -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://www.facebook.com"
+            role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+
+          <!-- Google -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://www.google.pt/?hl=pt-PT"
+            role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+
+          <!-- Instagram -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://www.instagram.com"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+
+          <!-- Linkedin -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://pt.linkedin.com"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+
+          <!-- Github -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://github.com/GoncaloCSilva"
+            role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links -->
+
+        <!--Grid row-->
+        <div class="row">
+          <div class="card-deck mx-auto">
+            <div class="card" style="width: 18rem">
+              <a href="AulaPratica1-Logic.html">
+                <img
+                  class="card-img-top"
+                  src="https://akamai.sscdn.co/uploadfile/letras/fotos/4/8/a/9/48a99f40a1b7b4682caa6aa70bbe7c0a.jpg"
+                  alt="Card image"
+                />
+              </a>
+              <div class="card-body">
+                <h4 class="card-title text-dark mx-auto">Logic</h4>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem">
+              <a href="AulaPratica1-KidCudi.html">
+                <img
+                  class="card-img-top"
+                  src="https://i.scdn.co/image/ab6761610000e5eb876faa285687786c3d314ae0"
+                  alt="Card image"
+                />
+              </a>
+              <div class="card-body">
+                <h4 class="card-title text-dark mx-auto">Kid Cudi</h4>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem">
+              <a href="AulaPratica1-Kendrick.html">
+                <img
+                  class="card-img-top"
+                  src="https://i.scdn.co/image/ab6761610000e5eb437b9e2a82505b3d93ff1022"
+                  alt="Card image"
+                />
+              </a>
+              <div class="card-body">
+                <h4 class="card-title text-dark mx-auto">Kendrick Lamar</h4>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem">
+              <a href="AulaPratica1-TameImpala.html">
+                <img
+                  class="card-img-top"
+                  src="https://i.scdn.co/image/ab6761610000e5eb90357ef28b3a012a1d1b2fa2"
+                  alt="Card image"
+                />
+              </a>
+              <div class="card-body">
+                <h4 class="card-title text-dark mx-auto">Tame Impala</h4>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem">
+              <a href="AulaPratica1-DerekPope.html">
+                <img
+                  class="card-img-top"
+                  src="https://i.scdn.co/image/ab67616d0000b27345386a9852c07845bb4065cb"
+                  alt="Card image"
+                />
+              </a>
+              <div class="card-body">
+                <h4 class="card-title text-dark mx-auto">Derek Pope</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Grid row-->
+
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3 bg-warning text-dark">
+        © 2022 Copyright: 48328 Gonçalo Silva, 48286 Tomás Matos G4
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </body>
+</html>

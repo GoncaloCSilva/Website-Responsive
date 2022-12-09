@@ -1,0 +1,157 @@
+h1 {
+    font-family: "Bungee Spice", cursive;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+h1.contact{
+  
+  font-family: 'Orbitron', sans-serif;
+  
+}
+input{
+  background-color:transparent !important;
+  border:none !important;
+}
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+}
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 900px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}
+nav{
+    
+    background-color: black;
+}
+div{
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button{
+  margin-top: 5px;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+button:hover{
+  background:purple;
+}
+.projects{
+  color: white;
+}
+.div-inline{
+display: inline-block;
+}
+.dropdown-menu{
+  background: black;
+  color: white;
+}
+.carousel{
+  border-radius: 100px;
+}
+/* I Forgot the > a > Img OMG AHHHHH ISAJDHIAUSHDAIUSHAOIU*/
+.carousel-item > a > img{
+
+  -webkit-animation: thing 20s;
+  animation: thing 20s;
+}
+@keyframes thing{
+  from{
+    transform: scale(1,1);
+  }to{
+    transform: scale(1.25,1.25);
+  }
+}
+/*Without important it wouldn't change*/
+.fa-brands:hover{
+    color: white!important;
+}
+iframe{
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+article.home {
+  background: linear-gradient(
+  to right,
+  orange 0%,
+  black 25%,
+  black 75%,
+  purple 100%
+ );
+}
+article.art{
+  background: linear-gradient(
+    to right,
+    orange 0%,
+    black 25%,
+    black 75%,
+    purple 100%
+   );
+}
+article.logic{
+  background: linear-gradient(
+    to right,
+    orange 0%,
+    black 25%,
+    black 75%,
+    blue 100%
+   );
+}
+article.Kid{
+  background: linear-gradient(
+    to right,
+    purple 0%,
+    black 25%,
+    black 75%,
+    rgb(224, 7, 101) 100%
+   );
+}
+article.Kendrick{
+  background: linear-gradient(
+    to right,
+    rgb(110, 52, 2) 0%,
+    black 25%,
+    black 75%,
+    rgb(174, 173, 173)
+   );
+}
+article.Impala{
+  background: linear-gradient(
+    to right,
+    purple,
+    black 25%,
+    black 75%,
+    purple
+   );
+}
+article.Pope{
+  background: linear-gradient(
+    to right,
+    Red,
+    black 25%,
+    black 75%,
+    Red
+   );
+}
+
+img:hover {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
